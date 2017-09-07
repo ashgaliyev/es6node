@@ -1,0 +1,14 @@
+{
+  "name": "es6node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "scripts": {
+    "script": "npm run build && clear && node index.js",
+    "build": "babel src -d lib"
+  }
+}
